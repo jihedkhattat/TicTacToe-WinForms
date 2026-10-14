@@ -1,0 +1,14 @@
+# Normalize line endings in the repository
+* text=auto
+
+# Windows-specific project files keep CRLF
+*.sln     text eol=crlf
+*.csproj  text eol=crlf
+*.cs      text eol=crlf
+*.resx    text eol=crlf
+*.config  text eol=crlf
+*.settings text eol=crlf
+
+# Binary files
+*.png binary
+*.ico binary
